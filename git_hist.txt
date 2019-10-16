@@ -1,0 +1,9 @@
+In order to create a git history command, not really a history, but give a history type
+feel, perform the following
+
+git config --global alias.hist "log --oneline --graph --decorate --all"
+
+The you can run the following to see global values
+
+git config --global --list
+
